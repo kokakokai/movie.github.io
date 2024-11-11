@@ -1,0 +1,353 @@
+@media all and (min-width: 1200px){
+    .m{display: none;}
+    .tab{display: none;}
+    .pc{display: block;}
+
+    .deobogi{
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    header .btn-menu{
+        display: none;
+    }
+
+    header{
+        padding: 50px 0;
+    }
+    header .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+    header h1{
+        width: 200px;
+        height: auto;
+        margin-top: 40px;
+        margin-right: 30px;
+    }
+    header nav{
+        position: unset;
+        background-color: unset;
+        width: unset;
+        height: unset;
+        z-index: 999;
+        
+    }
+    header .gnb{
+        position: unset;
+        width: unset;
+        height: unset;
+        color: #fff;
+        background-color: unset;
+        padding: unset;
+        overflow: unset;
+
+    }
+    header .gnb .btn-close{
+        display: none;
+    }
+    header nav .submenu{
+        flex-direction: unset;
+        justify-content: unset;
+        gap: 12px;
+        padding: unset;
+        margin-bottom: 30px;
+    }
+    header nav .submenu li a{
+        font-size: 16px;
+        padding: unset;
+
+    }
+    header nav .navi .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 110px;
+        
+    }
+    header nav .navi .menu>li{
+        position: relative;
+        width: 100%;
+    }
+    header nav .navi .menu>li>a{
+        font-size: 20px;
+        margin-bottom: unset;
+        text-wrap: nowrap;
+    }
+    header nav .navi .menu>li>a::after{
+        display: none;
+    }
+    header nav .navi .sub{
+        padding: unset;
+        color: #fff;
+        background-color: #0D0C0E;
+        position: absolute;
+        width: 150px;
+        top: 100%;
+        height: auto;
+        left: 0;
+        z-index: 1;
+        display: none;
+        border-radius: 10px;
+    }
+    header nav .navi .menu>li:nth-child(2) .sub{
+        width: 190px;
+    }
+    header nav .navi .menu>li:nth-child(3) .sub{
+        width: 200px;
+    }
+    header nav .navi .menu>li:nth-child(4) .sub{
+        width: 180px;
+    }
+    header nav .navi .menu>li:nth-child(5) .sub{
+        width: 160px;
+    }
+    header nav .navi .sub li a{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    header nav .navi .sub li:first-child a{
+        margin-top: 0;
+    }
+    header nav .navi .sub li a:hover{
+        font-weight: bold;
+        background-color: #fff;
+        color: #0D0C0E;
+    }
+    header nav .navi .sub li:last-child a{
+        margin-bottom: 0px;
+    }
+    header nav .navi .sub li a::after{
+        display: none;
+    }
+    .banner .banner_m{
+        display: none;
+    }
+    .banner .banner_tab{
+        display: none;
+    }
+    .banner .banner_pc{
+        display: block;
+    }
+    header nav .navi .sub li a{
+        font-size: 16px;
+        font-weight: 540;
+    }
+    .s1{
+        padding: 50px 0;
+    }
+    .s1 .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .s1 h2{
+        font-size: 28px;
+    }
+    .s1 .swiper-slide .txt h3{
+        font-size: 24px;
+    }
+    .s1 .swiper-slide .txt .btn .btn-up{
+        font-size: 16px;
+    }
+    .s1 .swiper-slide .txt .btn .btn-down{
+        font-size: 16px;
+    }
+    .s2{
+        padding: 50px 0;
+    }
+    .s2 .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .s2 h2{
+        font-size: 28px;
+    }
+    .s2 .date{
+        margin-top: 50px;
+    }
+    .s2 .day{
+        font-size: 24px;
+    }
+    .s2 .uptitle{
+        margin-top: 50px;
+    }
+    .s2 .uptitle h3{
+        font-size: 20px;
+    }
+    .s2 .uptitle h3 span{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .s2 .uptitle a{
+        font-size: 20px;
+    }
+    .s2 .schedule{
+        /* margin-top: 30px; */
+        padding: 30px 10px;
+    }
+    .s2 .schedule .time-slot{
+        font-size: 20px;
+        height: 50px;
+    }
+    .s2 #schedule3 .swiper-slide:nth-child(2) .schedule .time-slot:nth-child(3){
+        /* font-size: 18px; */
+    }
+    .s2 .schedule .time-slot span{
+        font-size: 18px;
+    }
+    .s3{
+        padding: 50px 0;
+    }
+    .s3 .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .s3 h2{
+        font-size: 28px;
+    }
+    .s3 .textbox h3{
+        font-size: 20px;
+        height: 50px;
+    }
+    .s3 .textbox p{
+        font-size: 16px;
+        height: 100px;
+    }
+    .s3 .textbox .date{
+        font-size: 18px;
+        
+    }
+    .s4{
+        padding: 50px 0;
+    }
+    .s4 .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    .s4 .tabmenu{
+        gap: 20px;
+    }
+    .s4 .tabmenu button{
+        font-size: 20px;
+    }
+    .s4 .tabmenu::after{
+        bottom: -50px;
+    }
+    
+    .s4 .notice{
+        margin-top: 100px;
+        
+    }
+    .s4 .notice ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .s4 .notice ul li{
+        margin-top: 50px;
+    }
+    .s4 .notice ul li:nth-child(2){
+        margin-top: 0;
+    }
+    .s4 .notice ul li:nth-child(2n){
+        margin-left: 20px;
+    }
+    .s4 .notice ul li::after{
+        margin-top: 50px;
+    }
+    .s4 .notice ul li a h3{
+        font-size: 24px;
+    }
+    .s4 .notice ul li a .day{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    
+    .s4 .notice ul li:nth-child(3)::after,
+    .s4 .notice ul li:last-child::after{
+        display: none;
+    }
+    .s4 .gallery{
+        margin-top: 100px;
+    }
+    .s4 .gallery .con{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .s4 .gallery .con .box{
+        padding: 10px;
+        margin-top: 0;
+    }
+    .s4 .gallery .con .box:nth-child(n+5){
+        margin-top: 40px;
+    }
+    .s4 .gallery .con .box .thumb{
+        height: 200px;
+    }
+    .s4 .gallery .con .box:nth-child{
+        margin-left: 20px;
+    }
+    .s4 .gallery .con .box:first-child,
+    .s4 .gallery .con .box:nth-child(5){
+        margin-left: 0;
+    }
+    .s4 .critic{
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    .s4 .critic ul li a{
+        gap: 20px;
+    }
+    .s4 .critic ul li:nth-child(n+3){
+        margin-top: 60px;
+    }
+    .s4 .critic ul li:nth-child(2n){
+        margin-left: 20px;
+    }
+    .s4 .critic ul li a::after{
+        bottom: -50px;
+    }
+    .s4 .critic ul li .thumb{
+        width: 250px;
+        height: 200px;
+    }
+    .s4 .critic ul li h3{
+        font-size: 18px;
+    }
+    .s4 .critic ul li h3 span{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    .s4 .critic ul li h3 .date{
+        margin-top: 10px;
+    }
+    footer{
+        padding: 50px 0;
+    }
+    footer .wrap{
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    footer .link{
+        display: flex;
+        gap: 20px;
+    }
+    footer .link li{
+        font-size: 18px;
+        margin-top: 0;
+    }
+    footer .info{
+        padding: unset;
+    }
+    footer .info p{
+        margin-top: unset;
+    }
+    footer .info p:nth-child(n+2){
+        margin-top: 30px;
+    }
+}   
