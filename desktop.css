@@ -66,8 +66,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 110px;
-        
+        gap: 95px;
     }
     header nav .navi .menu>li{
         position: relative;
